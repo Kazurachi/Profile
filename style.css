@@ -38,11 +38,5 @@ h2 {
     margin-right: 80px;
 }
 
-/*Not sure yet*/
-.title-container{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    background-color: #303446;
-   
-}
+
+
