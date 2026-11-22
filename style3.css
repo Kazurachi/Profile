@@ -7,9 +7,45 @@ body{
     padding: 0;
     box-sizing: border-box;
     border: none;
-    outline: none;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 html{
     font-size: 62.5%;
+}
+header{
+    background-color: transparent;
+    margin-top: 20px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 9rem;
+    align-items: center;
+}
+.logo{
+    color: #818cf8;
+    font-size: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav a{
+    color:#94a3b8;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 4rem;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover{
+    color: #155eef;
+    border-bottom: 3px solid #155eef;
+}
+nav a.active{
+    color: #155eef;
+    border-bottom: 3px solid #155eef;
 }
